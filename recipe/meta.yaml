@@ -1,5 +1,5 @@
 {% set name = "rubyzip" %}
-{% set version = "2.0.0" %}
+{% set version = "2.2.0" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: ff11f68bc936504ee73ad39bf8880b656ec70593de18b7cc3ab90b7541cce0bf
+  sha256: 1b737347ba1fdb94c292af79e41be0345a9f30aeebb8efe4ff8881ce592c618d
 
 build:
   noarch: generic
